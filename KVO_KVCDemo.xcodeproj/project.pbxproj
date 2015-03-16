@@ -14,6 +14,7 @@
 		DA4609981AB6DCB300013773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4609971AB6DCB300013773 /* Images.xcassets */; };
 		DA46099B1AB6DCB300013773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4609991AB6DCB300013773 /* LaunchScreen.xib */; };
 		DA4609A71AB6DCB300013773 /* KVO_KVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4609A61AB6DCB300013773 /* KVO_KVCDemoTests.m */; };
+		DA4609B21AB6DD0000013773 /* LabColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4609B11AB6DD0000013773 /* LabColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DA4609A01AB6DCB300013773 /* KVO_KVCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVO_KVCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4609A51AB6DCB300013773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4609A61AB6DCB300013773 /* KVO_KVCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_KVCDemoTests.m; sourceTree = "<group>"; };
+		DA4609B01AB6DD0000013773 /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
+		DA4609B11AB6DD0000013773 /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DA46098F1AB6DCB300013773 /* AppDelegate.m */,
 				DA4609911AB6DCB300013773 /* ViewController.h */,
 				DA4609921AB6DCB300013773 /* ViewController.m */,
+				DA4609B01AB6DD0000013773 /* LabColor.h */,
+				DA4609B11AB6DD0000013773 /* LabColor.m */,
 				DA4609941AB6DCB300013773 /* Main.storyboard */,
 				DA4609971AB6DCB300013773 /* Images.xcassets */,
 				DA4609991AB6DCB300013773 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				DA4609931AB6DCB300013773 /* ViewController.m in Sources */,
 				DA4609901AB6DCB300013773 /* AppDelegate.m in Sources */,
 				DA46098D1AB6DCB300013773 /* main.m in Sources */,
+				DA4609B21AB6DD0000013773 /* LabColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
