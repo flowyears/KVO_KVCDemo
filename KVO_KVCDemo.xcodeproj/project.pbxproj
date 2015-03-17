@@ -14,7 +14,10 @@
 		DA4609981AB6DCB300013773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4609971AB6DCB300013773 /* Images.xcassets */; };
 		DA46099B1AB6DCB300013773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4609991AB6DCB300013773 /* LaunchScreen.xib */; };
 		DA4609A71AB6DCB300013773 /* KVO_KVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4609A61AB6DCB300013773 /* KVO_KVCDemoTests.m */; };
-		DA4609B21AB6DD0000013773 /* LabColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4609B11AB6DD0000013773 /* LabColor.m */; };
+		DA86ED781AB8251D00B89196 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86ED771AB8251D00B89196 /* Person.m */; };
+		DA86ED7B1AB8286500B89196 /* PersonMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86ED7A1AB8286500B89196 /* PersonMonitor.m */; };
+		DA9D747A1AB81C6900B5AC2E /* BookData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D74791AB81C6900B5AC2E /* BookData.m */; };
+		DA9D747D1AB81C9C00B5AC2E /* AuthorData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D747C1AB81C9C00B5AC2E /* AuthorData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,14 @@
 		DA4609A01AB6DCB300013773 /* KVO_KVCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVO_KVCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4609A51AB6DCB300013773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4609A61AB6DCB300013773 /* KVO_KVCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_KVCDemoTests.m; sourceTree = "<group>"; };
-		DA4609B01AB6DD0000013773 /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
-		DA4609B11AB6DD0000013773 /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
+		DA86ED761AB8251D00B89196 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		DA86ED771AB8251D00B89196 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		DA86ED791AB8286500B89196 /* PersonMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonMonitor.h; sourceTree = "<group>"; };
+		DA86ED7A1AB8286500B89196 /* PersonMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonMonitor.m; sourceTree = "<group>"; };
+		DA9D74781AB81C6900B5AC2E /* BookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookData.h; sourceTree = "<group>"; };
+		DA9D74791AB81C6900B5AC2E /* BookData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookData.m; sourceTree = "<group>"; };
+		DA9D747B1AB81C9C00B5AC2E /* AuthorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorData.h; sourceTree = "<group>"; };
+		DA9D747C1AB81C9C00B5AC2E /* AuthorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +97,14 @@
 				DA46098F1AB6DCB300013773 /* AppDelegate.m */,
 				DA4609911AB6DCB300013773 /* ViewController.h */,
 				DA4609921AB6DCB300013773 /* ViewController.m */,
-				DA4609B01AB6DD0000013773 /* LabColor.h */,
-				DA4609B11AB6DD0000013773 /* LabColor.m */,
+				DA9D74781AB81C6900B5AC2E /* BookData.h */,
+				DA9D74791AB81C6900B5AC2E /* BookData.m */,
+				DA9D747B1AB81C9C00B5AC2E /* AuthorData.h */,
+				DA9D747C1AB81C9C00B5AC2E /* AuthorData.m */,
+				DA86ED761AB8251D00B89196 /* Person.h */,
+				DA86ED771AB8251D00B89196 /* Person.m */,
+				DA86ED791AB8286500B89196 /* PersonMonitor.h */,
+				DA86ED7A1AB8286500B89196 /* PersonMonitor.m */,
 				DA4609941AB6DCB300013773 /* Main.storyboard */,
 				DA4609971AB6DCB300013773 /* Images.xcassets */,
 				DA4609991AB6DCB300013773 /* LaunchScreen.xib */,
@@ -224,10 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA86ED781AB8251D00B89196 /* Person.m in Sources */,
 				DA4609931AB6DCB300013773 /* ViewController.m in Sources */,
 				DA4609901AB6DCB300013773 /* AppDelegate.m in Sources */,
+				DA9D747A1AB81C6900B5AC2E /* BookData.m in Sources */,
 				DA46098D1AB6DCB300013773 /* main.m in Sources */,
-				DA4609B21AB6DD0000013773 /* LabColor.m in Sources */,
+				DA86ED7B1AB8286500B89196 /* PersonMonitor.m in Sources */,
+				DA9D747D1AB81C9C00B5AC2E /* AuthorData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KVO_KVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KVO_KVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +438,7 @@
 				DA4609AC1AB6DCB300013773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4609AD1AB6DCB300013773 /* Build configuration list for PBXNativeTarget "KVO_KVCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				DA4609AF1AB6DCB300013773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
